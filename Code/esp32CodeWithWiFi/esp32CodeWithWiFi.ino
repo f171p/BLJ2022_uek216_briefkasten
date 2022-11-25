@@ -80,6 +80,6 @@ void loop() {
   sprintf(distanceCM, "%f", distanceCm);
   client.publish(topic1, distanceCM);
 
-  delay(500);
+  delay(1000);
   client.loop();
 }
